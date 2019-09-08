@@ -19,7 +19,7 @@ class CartProvide with ChangeNotifier {
     bool isHave = false;
     int ival = 0;
     allPrice = 0;
-    allGoodsCount = 0;
+    allGoodsCount = 0; 
     tempList.forEach((item) {
       if (item['goodsId'] == goodsId) {
         tempList[ival]['count'] = item['count'] + 1;

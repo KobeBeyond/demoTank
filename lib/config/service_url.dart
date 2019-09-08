@@ -1,5 +1,5 @@
 const serviceUrl = 'https://wxmini.baixingliangfan.cn/baixing/';
-const serviceURL = 'https://192.168.43.237:8080/';
+
 
 const servicePath = {
   'homePageContent':serviceUrl + 'wxmini/homePageContent',// 商店首页信息
@@ -9,6 +9,9 @@ const servicePath = {
   'getGoodDetailById': serviceUrl+'wxmini/getGoodDetailById', // 商品详情页面
 
 };
+
+const serviceURL = 'https://10.0.0.24:8080/';          //10.0.0.24 Sumixer-5G
 const servicePATH={
+  'getCategory': serviceURL + ''
   
 };
